@@ -1,0 +1,68 @@
+* {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+nav .container-fluid {
+  background-color: none !important;
+}
+
+nav .container-fluid #sandy_bizarre_adventure_brand {
+  width: 300px;
+}
+
+nav .container-fluid #sandy_bizarre_adventure_brand img {
+  width: 100%;
+}
+
+nav .container-fluid #navbarNavDropdown ul li {
+  margin-left: 10px;
+}
+
+main {
+  background-color: #f7f7f7;
+}
+
+main #news_from_blog {
+  background-color: white;
+}
+
+main #news_from_blog .news_1 {
+  width: 90%;
+  height: 200px;
+  background-color: brown;
+}
+
+main #news_from_blog .news_2 {
+  width: 90%;
+  height: 200px;
+  background-color: burlywood;
+}
+
+main #news_from_blog .news_3 {
+  width: 90%;
+  height: 200px;
+  background-color: cadetblue;
+}
+
+main #artical_section {
+  background-color: #dfdfdf;
+}
+
+main #artical_section .published_artical {
+  width: 90%;
+  background-color: #f1f1f1;
+}
+
+main #artical_section .published_artical .artical_title {
+  height: 50px;
+}
+
+main #artical_section .published_artical .artical_picture {
+  width: 100%;
+}
+
+main #artical_section .published_artical .artical_picture img {
+  width: 100%;
+}
+/*# sourceMappingURL=index.css.map */

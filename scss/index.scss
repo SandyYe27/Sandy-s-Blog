@@ -1,0 +1,75 @@
+$font_color:#6a6a6a;
+$font_size:14px;
+$title_font_size:18px;
+$navbar-light-color:none;
+*{
+    transition: 0.3s;
+}
+
+nav{
+    .container-fluid{
+        background-color: none!important;
+
+        #sandy_bizarre_adventure_brand{
+            width: 300px;
+            img{
+                width: 100%;
+            }
+            
+        }
+        #navbarNavDropdown{
+            ul{
+                li{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+    
+}
+main{
+    background-color: rgb(247, 247, 247);
+    
+    #news_from_blog{
+        background-color: rgb(255, 255, 255);
+        
+        .news_1{
+            width: 90%;
+            height: 200px;
+            
+            background-color: brown;
+        }
+        .news_2{
+            width: 90%;
+            height: 200px;
+            
+            background-color:burlywood;
+        }
+        .news_3{
+            width: 90%;
+            height: 200px;
+            
+            background-color: cadetblue;
+        }
+        
+    }
+    #artical_section{
+        background-color: rgb(223, 223, 223);
+
+        .published_artical{
+            width: 90%;
+            background-color: rgb(241, 241, 241);
+
+            .artical_title{
+                // background-color: aquamarine;
+                height: 50px;
+            }
+            .artical_picture{
+                width: 100%;
+                img{
+                    width: 100%;                
+                }
+            }
+        }
+    }
+}
